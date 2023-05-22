@@ -1,6 +1,6 @@
 ---
 id: enchantslots
-title: EnchantSlots?
+title: EnchantSlots
 description: EnchantSlots is a plugin that allows you to add custom lore to your enchanted items.
 sidebar_position: 4
 ---
