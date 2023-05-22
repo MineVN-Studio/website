@@ -9,3 +9,8 @@ This section contains the license key, which you can get in from our Discord aft
 ```
 license_key: "XXXXX-XXXXX-XXXXX-XXXXX-XXXXX"
 ```
+
+Toggle to send your server infomation to bStats
+```
+bStats: true
+```
