@@ -1,5 +1,5 @@
 ---
-id: enchants-level
+id: enchants-gem
 title: Enchants gem slots
 description: EnchantSlots add more enchant slots with gem config
 sidebar_position: 6
