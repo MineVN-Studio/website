@@ -1,7 +1,7 @@
 ---
 id: home
 title: Homepage
-description: Welcome to MineVN Studio
+description: Minecraft focused developer team from Vietnam
 sidebar_position: 1
 slug: /
 ---
