@@ -6,4 +6,7 @@ sidebar_position: 2
 ---
 | Command | Permission | Description |
 | --- | --- | --- |
-| `/enchantslots reload` | `-` | `Reloads the plugin's files.` |
+| `/enchantslots help` | `enchantslots.command` | `See plugin commands.` |
+| `/enchantslots reload` | `enchantslots.command` | `Reloads the plugin's files.` |
+| `/enchantslots about` | `enchantslots.command` | `See infomation about the plugin.` |
+| `/enchantslots update` | `enchantslots.command` | `Update item lore.` |
