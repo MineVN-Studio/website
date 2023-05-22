@@ -6,9 +6,10 @@ sidebar_position: 1
 ---
 This section decides the type of items. This is depended on MMOItems config. 
 
-If the category is not configed in Mmoitems, EnchantSlots WILL NOT recognise it and the lore section will not be displayed. 
+If the category is not configed in Mmoitems and `use-categories` is `true`, EnchantSlots WILL NOT recognise it and the lore section will not be displayed. 
 
 ```
+use-categories: true
 categories:
 - SWORD
 - TOOL
