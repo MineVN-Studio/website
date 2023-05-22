@@ -56,7 +56,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/minevn-studio-big-logo.png',
+      image: 'img/minevn-studio-header.png',
       navbar: {
         title: 'MineVN Studio',
         logo: {
