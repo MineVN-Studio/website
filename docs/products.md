@@ -26,5 +26,5 @@ sidebar_position: 3
 
 ## [DeluxeForms](../deluxeforms/)
 
-- DeluxeForms is allowed create form on Bedrock servers as simple as possible.
+- Deluxe Forms allow creating forms on Bedrock servers as simply as possible.
 - [Documentation](../deluxeforms/)
