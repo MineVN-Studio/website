@@ -14,8 +14,8 @@ You can have more than one requirement
 
 | Type                  | Identifiers                                                       | Options          |
 |-----------------------|-------------------------------------------------------------------|------------------|
-| `Have permission`     | `has permission` `has perm` `haspermission` `hasperm` `perm`      | `permission`     |
-| `Not have permission` | `!has permission` `!has perm` `!haspermission` `!hasperm` `!perm` | `permission`     | 
+| `Has permission`      | `has permission` `has perm` `haspermission` `hasperm` `perm`      | `permission`     |
+| `Not has permission`  | `!has permission` `!has perm` `!haspermission` `!hasperm` `!perm` | `permission`     | 
 | `String equals`       | `string equals` `stringequals`                                    | `input` `output` |
 | `String not equals`   | `string not equal` `!stringequals`                                | `input` `output` |
 | `String contains`     | `string cointains` `stringcontains` `contains`                    | `input` `output` |
