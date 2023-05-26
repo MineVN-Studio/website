@@ -22,4 +22,4 @@ sidebar_position: 3
 ## [EnchantSlots](https://builtbybit.com/resources/enchantslots.28746)
 
 - Adding custom lore to your enchanted items
-- [Documentation](./enchantslots/)
+- [Documentation](../enchantslots/)
