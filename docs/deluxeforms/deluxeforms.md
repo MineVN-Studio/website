@@ -5,14 +5,12 @@ description: DeluxeForms is a powerful plugin designed to make Form creation on 
 sidebar_position: 5
 ---
 
-![DeluxeForms Banner](https://media.discordapp.net/attachments/1068515472796041308/1109865192600387674/deluxeforms-header.png)
-
-# Description
-
 DeluxeForms is a powerful plugin designed to make form creation on Minecraft Bedrock servers as simple as possible. With DeluxeForms, you can easily create fully configurable, customizable menus that perform specific actions based on the player who opened them and the requirements that they meet.
 
 
 You can also configure your forms to perform different actions based on specific requirements. For example, you can create a feedback form that only opens for players who have been on the server for a certain amount of time, or a registration form that only opens for players who have reached a certain level.
+
+![DeluxeForms Banner](https://media.discordapp.net/attachments/1068515472796041308/1109865192600387674/deluxeforms-header.png)
 
 # Features
 

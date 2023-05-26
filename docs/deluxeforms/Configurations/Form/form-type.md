@@ -43,12 +43,10 @@ Custom Form is a very interesting form you will have many options:
 
 :::caution
 
-**Note:** All of the above forms can be renamed and arranged as you like, except for the **submit button**
-
-You can have multiple components of a certain type.
-For example, a custom form can have 4 Dropdowns or 3 Sliders.
-
-**You cannot have buttons on Custom Form or Slider on Simple Form this is a limitation of Minecraft.**
+- You cannot have buttons on **Custom Form** or Slider on **Simple Form** this is a limitation of Minecraft.
+- All of the above forms can be renamed and arranged as you like, except for the **submit button**
+- You can have multiple components of a certain type.
+  + For example, a custom form can have 4 Dropdowns or 3 Sliders.
 
 :::
 
