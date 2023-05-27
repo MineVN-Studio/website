@@ -12,7 +12,7 @@ Getting tired of boring minecraft enchantments lores? Lazy making it manually an
 
 - Ability to add custom lore to any "enchantable item" in the game
 - Multiple plugins support:
-    - Vanila minecraft
+    - Vanilla minecraft
     - Advanced Enchantments (40%)
     - ExcellentEnchantments (100%)
     - EcoEnchants (100%)
