@@ -7,12 +7,12 @@ sidebar_position: 2
 
 # FAQs & Terms of Service
 
-Please read through our FAQs and TOS carefully
+Please read our FAQs and TOS thoroughly
 
 ## Terms of service
 - Please **do not ping** any staff members if not necessary, create a ticket if needed
 - Support for paid products can only be given on the **associated support channel**
-- All **payments are final**, **no refund** since this is digital products
+- All **payments are final**, **no refund** since these are digital products
 - You are **not allowed to share, decompile or redistribute** our paid products in any way
 - You are **not allowed to claim the products** on your own
 
