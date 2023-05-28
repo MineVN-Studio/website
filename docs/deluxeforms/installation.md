@@ -1,7 +1,7 @@
 ---
 id: installation
 title: Installation
-description: DeluxeForms installation
+description: DeluxeForms installation guide
 sidebar_position: 2
 ---
 Make sure you have [FloodgateAPI](https://geysermc.org/download) and [Kotlin-stdlib](https://www.spigotmc.org/resources/kotlin-stdlib.80808/) installed. So here is the guide after you have these 2 plugins installed

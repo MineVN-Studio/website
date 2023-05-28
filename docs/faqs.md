@@ -1,7 +1,7 @@
 ---
 id: faqs
 title: Frequently Asked Questions
-description: Frequently Asked Questions
+description: Frequently Asked Questions and Terms of Service
 sidebar_position: 2
 ---
 

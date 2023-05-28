@@ -2,7 +2,7 @@
 id: command_and_permissions
 title: Command and Permissions
 description: A list of all commands and permissions for EnchantSlots
-sidebar_position: 2
+sidebar_position: 3
 ---
 | Command | Permission | Description |
 | --- | --- | --- |

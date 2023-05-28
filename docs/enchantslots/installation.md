@@ -1,7 +1,7 @@
 ---
 id: installation
 title: Installation
-description: EnchantSlots installation
+description: EnchantSlots installation guide
 sidebar_position: 2
 ---
 Since the plugin is MMOItems dependence, it requires the plugin to run. So here is the guide after you have these 2 plugins installed
@@ -19,11 +19,11 @@ After you opened lore-format.yml, add this line into the config
   - '#enchant-slots#'
 ```
 
-## STEP 2: Reload MMOItems
+## Step 2: Reload MMOItems
 
 Having done all 2 previous step, you need to reload Mmoitems by /mmoitems reload
 
-## STEP 3: MMOItems enable
+## Step 3: MMOItems enable
 
 Do /mi browse, and scroll to final pages, there will be an option called Enable EnchantSlots, turn it to TRUE 
 
@@ -33,6 +33,6 @@ Example: https://imgur.com/a/ivuEhn1
 
 :::caution
 
-**WARNING: DO NOT USE PLUGMAN TO RELOAD THE PLUGIN. RESTART THE SERVER INSTEAD**
+**Do not use PlugMan to reload the plugin**
 
 :::

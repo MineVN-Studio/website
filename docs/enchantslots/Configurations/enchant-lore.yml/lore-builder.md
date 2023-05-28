@@ -1,7 +1,7 @@
 ---
 id: lorebuilder
 title: Lore Builder
-description: Lore Builder
+description: EnchantSlots Lore Builder
 sidebar_position: 3
 ---
 You can modify the lore as the way you wanted. Including HEX COLOR support.

@@ -1,7 +1,7 @@
 ---
 id: category
 title: Category
-description: Item category
+description: EnchantSlots Item category
 sidebar_position: 1
 ---
 This section decides the type of items. This is depended on MMOItems config. 

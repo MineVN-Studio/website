@@ -1,7 +1,7 @@
 ---
 id: home
 title: Homepage
-description: Minecraft focused developer team from Vietnam
+description: MineVN Studio is a team of Minecraft focused developers from Vietnam. Crating high-quality premade products.
 sidebar_position: 1
 slug: /
 ---
