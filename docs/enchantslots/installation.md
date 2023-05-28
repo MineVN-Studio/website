@@ -31,4 +31,8 @@ If the item does not display the lore, please check if the rarity and catagories
 
 Example: https://imgur.com/a/ivuEhn1
 
+:::caution
+
 **WARNING: DO NOT USE PLUGMAN TO RELOAD THE PLUGIN. RESTART THE SERVER INSTEAD**
+
+:::
