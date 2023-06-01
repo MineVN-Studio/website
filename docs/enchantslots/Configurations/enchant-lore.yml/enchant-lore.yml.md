@@ -67,4 +67,12 @@ gem-enchants:
   - '8'
   - '9'
   - '10'
+default-tiers:
+  default: COMMON
+  DIAMOND_SWORD: COMMON
+# List of NBT tags that will be mark as not convertible to item
+# Example: DISABLE_NBT
+exclude-nbt:
+- CustomFishing
+# - display  
 ```
