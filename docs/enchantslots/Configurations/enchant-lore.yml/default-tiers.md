@@ -11,11 +11,11 @@ Explaination:
   - The `default` key is apply for any type of material.
 
 :::caution
-If you set the tier is `null`, it won't convert the item to display the enchant lore.
+If you set the tier is `"null"`, it won't convert the item to display the enchant lore.
 :::
 
 ```
 default-tiers:
   default: COMMON
-  DIAMOND_SWORD: null
+  DIAMOND_SWORD: "null"
 ```
