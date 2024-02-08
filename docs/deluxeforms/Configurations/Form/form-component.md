@@ -106,7 +106,7 @@ Step slider behavior is slightly different; it will run the command based on the
   type: TOGGLE
   component:
    default-value: true
-  commands:
+  click_commands:
    #true
    - "[console] day"
    #false
@@ -124,7 +124,7 @@ Step slider behavior is slightly different; it will run the command based on the
    elements:
     - "Option 1"
     - "Option 2"
-  commands:
+  click_commands:
    - "[console] say 1"
    - "[console] say 2"
 ```
