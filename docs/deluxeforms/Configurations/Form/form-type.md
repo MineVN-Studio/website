@@ -15,7 +15,7 @@ Configurable:
 - Description line (possibly delineated).
 - Button with a picture or not.
 
-![Simple Form](https://media.discordapp.net/attachments/1102133845341507594/1111501147572805632/spaces2FX1OUPm3fOWD1pikUv6Gk2Fuploads2FgYgv3tTUNSL0q0pjExq42Fimage.png?width=300&height=266)
+![Simple Form](https://i.imgur.com/3rj2OQ2.png)
 
 ## Modal Form
 
@@ -27,7 +27,7 @@ Configurable:
 - Large content pane (can scroll if the content is long)
 - 2 buttons without the picture
 
-![Modal Form](https://media.discordapp.net/attachments/1102133845341507594/1111501171648110632/spaces2FX1OUPm3fOWD1pikUv6Gk2Fuploads2F4vyh4VRGEnF3UhvTdXzD2Fimage.png?width=300&height=245)
+![Modal Form](https://i.imgur.com/kMpMgOh.png)
 
 ## Custom Form
 
@@ -39,7 +39,7 @@ Custom Form is a very interesting form you will have many options:
 - Slider
 - Step slider
 
-![Custom Form](https://media.discordapp.net/attachments/1102133845341507594/1111501188911874098/spaces2FX1OUPm3fOWD1pikUv6Gk2Fuploads2FQAocqCWZfPYDizouzKVh2Fimage.png?width=300&height=266)
+![Custom Form](https://i.imgur.com/zHgxELm.png)
 
 :::caution
 

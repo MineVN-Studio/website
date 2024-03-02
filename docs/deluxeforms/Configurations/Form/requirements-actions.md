@@ -35,25 +35,32 @@ You can have more than one requirement
 
 ## Action type
 
-| Type              | Identifiers        | Definitions                   |
-|-------------------|--------------------|-------------------------------|
-| `Console`         | `[Console]`        | `Run command as Console`      |
-| `Player`          | `[player]`         | `Run command as Player`       |
-| `Command Event`   | `[commandevent]`   | `Fire a player command event` |
-| `Open form`       | `[openform]`       | `Open a form`                 |
-| `Messages`        | `[messages]`       | `Send a message`              |
-| `Broadcast`       | `[broadcast]`      | `Broadcast a message`         |
-| `Chat`            | `[chat]`           | `Send a chat message`         |
-| `Sound`           | `[sound]`          | `Play a sound`                |
-| `Broadcast Sound` | `[broadcastsound]` | `Broadcast with a sound`      |
-| `Take money`      | `[takemoney]`      | `Take money from player`      |
-| `Give money`      | `[givemoney]`      | `Give money to player`        |
-| `Take XP`         | `[takexp]`         | `Take XP from player`         |
-| `Give XP`         | `[givexp]`         | `Give XP to player`           |
-| `Give permission` | `[giveperm]`       | `Give permission to player`   |
-| `Take permission` | `[takeperm]`       | `Take permission from player` |
-| `MiniMessage`     | `[minimessage]`    | `Send a MiniMessage`          |
+| Type              | Identifiers        | Definitions                 |
+|-------------------|--------------------|-----------------------------|
+| `Console`         | `[Console]`        | Run command as Console      |
+| `Player`          | `[player]`         | Run command as Player       |
+| `Command Event`   | `[commandevent]`   | Fire a player command event |
+| `Open form`       | `[openform]`       | Open a form                 |
+| `Messages`        | `[messages]`       | Send a message              |
+| `Broadcast`       | `[broadcast]`      | Broadcast a message         |
+| `Chat`            | `[chat]`           | Send a chat message         |
+| `Sound`           | `[sound]`          | Play a sound                |
+| `Broadcast Sound` | `[broadcastsound]` | Broadcast with a sound      |
+| `Take money`      | `[takemoney]`      | Take money from player      |
+| `Give money`      | `[givemoney]`      | Give money to player        |
+| `Take XP`         | `[takexp]`         | Take XP from player         |
+| `Give XP`         | `[givexp]`         | Give XP to player           |
+| `Give permission` | `[giveperm]`       | Give permission to player   |
+| `Take permission` | `[takeperm]`       | Take permission from player |
+| `MiniMessage`     | `[minimessage]`    | Send a MiniMessage          |
 
+
+## Action tag
+
+| Type     | Identifiers         | Definitions                                                                                                                                                                        |
+|----------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `Delay`  | `<delay=<time>>`    | Executes the action after the specified delay (in ticks, 20 ticks = 1 second).`                                                                                                    |
+| `Chance` | `<chance=<chance>>` | Specifies the probability of executing the action, ranging from 0 to 100. A value of 0 indicates the action will never execute, while a value of 100 ensures it will always execute.`|
 
 :::info
 
