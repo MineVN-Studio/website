@@ -10,7 +10,7 @@ DeluxeForms is a powerful plugin designed to make form creation on Minecraft Bed
 
 You can also configure your forms to perform different actions based on specific requirements. For example, you can create a feedback form that only opens for players who have been on the server for a certain amount of time, or a registration form that only opens for players who have reached a certain level.
 
-![DeluxeForms Banner](https://media.discordapp.net/attachments/1068515472796041308/1109865192600387674/deluxeforms-header.png)
+![DeluxeForms Banner](https://i.imgur.com/hnShm41.png)
 
 # Features
 

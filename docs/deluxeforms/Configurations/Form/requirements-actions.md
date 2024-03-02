@@ -54,14 +54,6 @@ You can have more than one requirement
 | `Take permission` | `[takeperm]`       | Take permission from player |
 | `MiniMessage`     | `[minimessage]`    | Send a MiniMessage          |
 
-
-## Action tag
-
-| Type     | Identifiers         | Definitions                                                                                                                                                                        |
-|----------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `Delay`  | `<delay=<time>>`    | Executes the action after the specified delay (in ticks, 20 ticks = 1 second).`                                                                                                    |
-| `Chance` | `<chance=<chance>>` | Specifies the probability of executing the action, ranging from 0 to 100. A value of 0 indicates the action will never execute, while a value of 100 ensures it will always execute.`|
-
 :::info
 
 - **Sound and Broadcast Sound:** SoundID|volume|pitch|category
@@ -73,6 +65,14 @@ You can have more than one requirement
 Feel free to suggest more requirements. Our [Discord](https://minevn.studio/discord)
 
 :::
+
+## Action tag
+These tags are applicable for use alongside the action, for example: '[message] example<delay=20>'.
+
+| Type     | Identifiers         | Definitions                                                                                                                                                                           |
+|----------|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `Delay`  | `<delay=<time>>`    | Executes the action after the specified delay (in ticks, 20 ticks = 1 second).`                                                                                                       |
+| `Chance` | `<chance=<chance>>` | Specifies the probability of executing the action, ranging from 0 to 100. A value of 0 indicates the action will never execute, while a value of 100 ensures it will always execute.` |
 
 ## Syntax
 

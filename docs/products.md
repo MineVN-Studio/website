@@ -24,7 +24,7 @@ sidebar_position: 3
 - Adding custom lore to your enchanted items
 - [Documentation](../enchantslots/)
 
-## [DeluxeForms](../deluxeforms/)
+## [DeluxeForms](https://builtbybit.com/resources/deluxeforms-bedrock-gui-creation.29076/)
 
 - Deluxe Forms allow creating forms on Bedrock servers as simply as possible.
 - [Documentation](../deluxeforms/)
