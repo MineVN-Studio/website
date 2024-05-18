@@ -6,7 +6,7 @@ sidebar_position: 4
 ---
 Getting tired of boring minecraft enchantments lores? Lazy making it manually and hide-enchantments? Well, this is a solution for you. This plugin will bring a new wind to your minecraft experience.
 
-![EnchantSlots banner](https://cdn.discordapp.com/attachments/1068515472796041308/1108429716467241020/enchant-slots-header.png)
+![EnchantSlots banner](https://i.imgur.com/jeEfy5E.png)
 
 ## Features
 
