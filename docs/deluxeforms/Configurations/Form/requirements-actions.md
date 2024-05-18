@@ -12,26 +12,28 @@ You can have more than one requirement
 
 ## Requirement type
 
-| Type                  | Identifiers                                                  | Options          |
-|-----------------------|--------------------------------------------------------------|------------------|
-| `Has permission`      | `has permission` `has perm` `haspermission` `hasperm` `perm` | `permission`     |
-| `Has permission`      | `has permission` `has perm` `haspermission` `hasperm` `perm` | `permission`     |
-| `Has money`           | `has money` `hasmoney`                                       | `amount`         |
-| `Not has money`       | `!has money` `!hasmoney`                                     | `permission`     | 
-| `Has XP`              | `has xp` `hasxp`                                             | `amount`         |
-| `Not has XP`          | `!has xp` `!hasxp`                                           | `amount`         |
-| `String equals`       | `string equals` `stringequals`                               | `input` `output` |
-| `String not equals`   | `string not equal` `!stringequals`                           | `input` `output` |
-| `String contains`     | `string cointains` `stringcontains` `contains`               | `input` `output` |
-| `String not contains` | `!string contains` `!stringcontains` `!contains`             | `input` `output` |
-| `Greater than`        | `>` `greater than` `greaterthan`                             | `input` `output` |
-| `Greater than equal`  | `>=` `greater than or equal to` `greaterthanorequalto`       | `input` `output` |
-| `Equal`               | `==` `equal to` `equalto`                                    | `input` `output` |
-| `Less than equal`     | `=<` `less than or equal to` `lessthanorequalto `            | `input` `output` |
-| `Less than`           | `string equals` `stringequals`                               | `input` `output` |
-| `String equals`       | `<` `less than` `lessthan`                                   | `input` `output` |
-| `String equals`       | `string equals` `stringequals`                               | `input` `output` |
-| `String equals`       | `string equals` `stringequals`                               | `input` `output` |
+| Type                       | Identifiers                                                       | Options             |
+|----------------------------|-------------------------------------------------------------------|---------------------|
+| `Has permission`           | `has permission` `has perm` `haspermission` `hasperm` `perm`      | `permission` ` `    |
+| `Is near`                  | `is near` `isnear`                                                | `location` `radius` |
+| `Is not near`              | `!is near` `!isnear`                                              | `location` `radius` |
+| `Does not have permission` | `!has permission` `!has perm` `!haspermission` `!hasperm` `!perm` | `permission` ` `    |
+| `Has money`                | `has money` `hasmoney`                                            | `amount` ` `        |
+| `Does not have money`      | `!has money` `!hasmoney`                                          | `amount` ` `        |
+| `Has XP`                   | `has xp` `hasxp`                                                  | `amount` ` `        |
+| `Does not have XP`         | `!has xp` `!hasxp`                                                | `amount` ` `        |
+| `String equals`            | `string equals` `stringequals`                                    | `input` `output`    |
+| `String not equals`        | `string not equal` `!stringequals`                                | `input` `output`    |
+| `String contains`          | `string contains` `stringcontains` `contains`                     | `input` `output`    |
+| `String not contains`      | `!string contains` `!stringcontains` `!contains`                  | `input` `output`    |
+| `String length`            | `string length` `stringlength`                                    | `input` `output`    |
+| `Greater than`             | `>` `greater than` `greaterthan`                                  | `input` `output`    |
+| `Greater than equal to`    | `>=` `greater than or equal to` `greaterthanorequalto`            | `input` `output`    |
+| `Equal to`                 | `==` `equal to` `equalto`                                         | `input` `output`    |
+| `Less than equal to`       | `<=` `less than or equal to` `lessthanorequalto`                  | `input` `output`    |
+| `Less than`                | `<` `less than` `lessthan`                                        | `input` `output`    |
+
+
 
 ## Action type
 
@@ -91,15 +93,22 @@ components:
    image:
     type: "path"
     data: ""
+   view_requirements:
+     <name>:
+       type: ">"
+       input: "%server_online%"
+       output: "5"
+       deny_commands:
+         - '[messages] &cServer must have less than 5 players!'
+   click_requirements:
+     check_distance:
+       type: 'is near'
+       location: '603,100,1'
+       radius: 10
+       deny_commands:
+         - '[message] &cYou must be near the location'
    click_commands:
     - '[openform] something'
-   view_requirements:
-    <name>:
-      type: ">"
-      input: "%server_online%"
-      output: "5"
-      deny_commands:
-        - '[messages] &cServer must have less than 5 players!'
 ```
 
 

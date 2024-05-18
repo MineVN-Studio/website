@@ -4,11 +4,11 @@ title: Installation
 description: DeluxeForms installation guide
 sidebar_position: 2
 ---
-Make sure you have [FloodgateAPI](https://geysermc.org/download) and [Kotlin-stdlib](https://www.spigotmc.org/resources/kotlin-stdlib.80808/) installed. So here is the guide after you have these 2 plugins installed
+Make sure you have [FloodgateAPI](https://geysermc.org/download) installed. So here is the guide after you have installed FloodgateAPI.
 
 ## Geyser on Bungeecord
 If you are using Geyser on Bungeecord Make sure you installed FloodgateAPI on both Bungeecord and spigot server.
-
+Copy file `key.pem` in the FloodgateAPI folder on Bungeecord to the FloodgateAPI folder on the Spigot server.
 ```yaml
 #plugins/floodgate/config.yml
 
