@@ -43,7 +43,7 @@ You can have more than one requirement
 | `Player`          | `[player]`         | Run command as Player       |
 | `Command Event`   | `[commandevent]`   | Fire a player command event |
 | `Open form`       | `[openform]`       | Open a form                 |
-| `Messages`        | `[messages]`       | Send a message              |
+| `Message`        | `[message]`       | Send a message              |
 | `Broadcast`       | `[broadcast]`      | Broadcast a message         |
 | `Chat`            | `[chat]`           | Send a chat message         |
 | `Sound`           | `[sound]`          | Play a sound                |
@@ -111,5 +111,8 @@ components:
     - '[openform] something'
 ```
 
+:::info
 
+More informations about the Minecraft IDs sounds woul be such a great feature to be added on the wiki to, just to keep people informed of what they could add in their UI's to not just click clack click sound it's so boring. [Link]([https://minevn.studio/discord](https://www.digminecraft.com/lists/sound_list_pc.php))
+:::
 
