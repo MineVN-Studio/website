@@ -80,13 +80,16 @@ These tags are applicable for use alongside the action, for example: '[message] 
 
 ```yaml
 open_requirements:
-  requirements:
-    <name>:
-      type: "<"
-      input: "%server_online%"
-      output: "5"
-      deny_commands:
-        - '[messages] &cServer must have less than 5 players!'
+  <NAME>:
+    type: '>'
+#This meants the %server_online% must be above 5 in order to open the menu.
+    input: '%server_online%'
+#Make sure the input will return as int, as we want to make
+#the menu can be openned if there's 5 players on the server.
+    output: 5
+    deny_commands:
+      - '[message] &c&lOops!&r&7 Unfortunately there are less than 5 players online on the server :(!'
+      - '[sound] entity.villager.no'
 components:
   test:
    title: "Hello"
